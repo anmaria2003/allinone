@@ -1,23 +1,40 @@
 Git commands 
 
-Git clone git D (file name) 
-Git status 
-Git commit –m “msg” 
-Git config – global user.name “name” 
-Git config – global user.email “email” 
-Git push origin main 
-Git clone (paste link) 
-Git pull origin main 
-Origin = remote name 
-Main = main branch 
-Task1: 
-Git fetch origin main 
-Git merge 
-Git branch –a  
-Git branch (branch name) 
-Git checkout (branch name) 
-Cat “content”>> file.txt 
-Git merger branch name 
-Git branch - d (branch name) 
-Git push - u origin (branch name) 
-Git push origin -- delete (branch name)
+cd C:
+mkdir gitprojects
+ls
+git clone -link
+git --version
+git config --global user.name "anmaria2003"
+git config --list
+git config --global user.email "anmariabyju2003@gmail.com"
+git clone -link
+ls
+cd dora/
+ls
+git add init.txt
+git commit -m"committed locally"
+git push origin main
+git fetch origin main
+git merge
+git pull origin main
+
+to create a branch
+git branch new-branch
+git checkout new-branch
+git add pea.txt
+git commit -m "committed locally"
+git checkout main
+git pull origin main
+git checkout new-branch
+git pull origin main
+git add star.txt
+git commit -m "resolving merge conflict in star.txt"
+git check out new-branch
+git push origin new-branch
+after this yo have to work on git and message will pop 
+after that all 
+git checkout main
+git delete -d new-branch  delete the local branch
+delete the remote branch
+git push origin --delete new-branch
