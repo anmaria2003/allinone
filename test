@@ -1,0 +1,67 @@
+Unit tests 
+package arithmetics; 
+public class Arith_operation { 
+public int add(int num1, int num2) { 
+return num1+num2; 
+} 
+public int sub(int num1, int num2) { 
+return num1-num2; 
+} 
+public int Square(int num) { 
+return num*num; 
+} 
+b. multiplication 
+public int Multiplication(int num1, int num2) { 
+return num1*num2; 
+} 
+} 
+
+Tests: 
+package arithmetics; 
+import static org.junit.Assert.*; 
+import org.junit.Test; 
+public class TestAdd { 
+@Test 
+public void test() { 
+Arith_operation ao = new Arith_operation(); 
+int result =  ao.add(10, 20); 
+assertEquals(30,result); 
+c. subtraction 
+} 
+} 
+
+package arithmetics; 
+import static org.junit.Assert.*; 
+import org.junit.Test; 
+public class TestSquare { 
+@Test 
+public void test() { 
+Arith_operation a = new Arith_operation(); 
+int actop = a.Square(4); 
+assertEquals(16,actop); 
+} 
+} 
+
+package arithmetics; 
+import static org.junit.Assert.*; 
+import org.junit.Test; 
+public class TestSub { 
+@Test 
+public void test() { 
+Arith_operation s = new Arith_operation(); 
+int result = s.sub(40, 20); 
+assertEquals(20,result); 
+} 
+} 
+
+package arithmetics; 
+import static org.junit.Assert.*; 
+import org.junit.Test; 
+public class TestMultiplication { 
+@Test 
+public void test() { 
+Arith_operation m = new Arith_operation(); 
+int result = m.Multiplication(20, 30); 
+assertEquals(600,result);
+} 
+} 
