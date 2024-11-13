@@ -1,0 +1,23 @@
+Git commands 
+
+Git clone git D (file name) 
+Git status 
+Git commit –m “msg” 
+Git config – global user.name “name” 
+Git config – global user.email “email” 
+Git push origin main 
+Git clone (paste link) 
+Git pull origin main 
+Origin = remote name 
+Main = main branch 
+Task1: 
+Git fetch origin main 
+Git merge 
+Git branch –a  
+Git branch (branch name) 
+Git checkout (branch name) 
+Cat “content”>> file.txt 
+Git merger branch name 
+Git branch - d (branch name) 
+Git push - u origin (branch name) 
+Git push origin -- delete (branch name)
