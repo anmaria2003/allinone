@@ -65,3 +65,8 @@ int result = m.Multiplication(20, 30);
 assertEquals(600,result);
 } 
 } 
+
+Debugging 
+F5 – step into 
+F6 – step over 
+F7 – step out
