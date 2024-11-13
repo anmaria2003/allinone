@@ -1,0 +1,84 @@
+Automate any page of your choice
+package selenium; 
+import org.openqa.selenium.WebDriver; 
+import org.openqa.selenium.chrome.ChromeDriver; 
+public class first { 
+public static void main(String[] args) { 
+// TODO Auto-generated method stub 
+System.setProperty("webdriver.chrome.webdriver", "C:\\Users\\USER\\Desktop\\New folder\\chrome.exe"); 
+WebDriver driver = new ChromeDriver(); 
+driver.get("https://github.com/dashboard"); 
+} 
+} 
+
+Task 2: 
+Automate the Gmail webpage for adding your email address 
+package selenium; 
+import org.openqa.selenium.By; 
+import org.openqa.selenium.WebDriver; 
+import org.openqa.selenium.chrome.ChromeDriver; 
+public class first { 
+public static void main(String[] args) { 
+System.setProperty("webdriver.chrome.driver", "C:\\Users\\USER\\Desktop\\New folder\\chromedriver.exe"); 
+WebDriver dr = new ChromeDriver(); 
+dr.get("https://gmail.com/"); 
+dr.findElement(By.id("identifierId")).sendKeys("eyrbj@gmail.com"); 
+} 
+} 
+
+Task 3: 
+open browser (chrome) 
+pass url(gmail) 
+access page elements 
+1) username 
+2) set value to username 
+3) access next butoon 
+4) execute onclick 
+access the pasword element 
+1) set value 
+2) execute onclicke for submit 
+package salenium; 
+import org.openqa.selenium.By; 
+import org.openqa.selenium.WebDriver; 
+import org.openqa.selenium.chrome.ChromeDriver; 
+import org.openqa.selenium.chrome.ChromeOptions; 
+import org.openqa.selenium.support.ui.ExpectedConditions; 
+import org.openqa.selenium.support.ui.WebDriverWait; 
+ 
+import java.time.Duration; 
+ 
+public class sele { 
+    public static void main(String[] args) { 
+        System.setProperty("webdriver.chrome.driver", "C:\\New folder\\chromedriver.exe"); 
+         
+        ChromeOptions options = new ChromeOptions(); 
+        options.addArguments("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 
+(KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"); 
+ 
+        WebDriver driver = new ChromeDriver(options); 
+ 
+        try { 
+            driver.get("https://gmail.com/"); 
+ 
+            driver.findElement(By.id("identifierId")).sendKeys("salonikarapurkar13@gmail.com"); 
+            driver.findElement(By.id("identifierNext")).click(); 
+ 
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); 
+ 
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20)); 
+            wait.until(ExpectedConditions.elementToBeClickable(By.name("password"))); 
+ 
+            driver.findElement(By.name("password")).sendKeys("consol.login"); // Replace with your actual password 
+            driver.findElement(By.id("passwordNext")).click(); 
+ 
+ 
+            wait.until(ExpectedConditions.urlContains("inbox")); 
+ 
+        } catch (Exception e) { 
+            e.printStackTrace(); 
+        } finally { 
+            driver.quit(); 
+        } 
+    } 
+} 
+ 
