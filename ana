@@ -1,0 +1,90 @@
+online book store
+1. User Registration
+User Story: As a new user, I want to create an account so that I can access the online book store.
+Acceptance Criteria:
+Given: The user is on the registration page.
+When: The user fills in all required fields and submits the form.
+Then: The system creates an account, and a welcome email is sent to the user.
+
+2. User Login
+User Story: As a registered user, I want to log in so that I can view and purchase books.
+Acceptance Criteria:
+Given: The user has registered and has valid credentials.
+When: The user enters their credentials and clicks "Login."
+Then: The user is directed to their account dashboard.
+
+3. Browse by Category
+User Story: As a customer, I want to browse books by category so that I can find specific genres easily.
+Acceptance Criteria:
+Given: The user is on the homepage.
+When: The user selects a category (e.g., Fiction, Science).
+Then: The system displays all books in that category.
+
+4. Search for Books
+User Story: As a customer, I want to search for books so that I can find titles quickly.
+Acceptance Criteria:
+Given: The user is on the homepage.
+When: The user types a title or author name into the search bar and clicks "Search."
+Then: The system displays books matching the search term.
+
+5. Add to Cart
+User Story: As a customer, I want to add books to my cart so that I can review items before purchasing.
+Acceptance Criteria:
+Given: The user is viewing a book's details.
+When: The user clicks "Add to Cart."
+Then: The book is added to the cart, and the cart is updated with the new item.
+
+1.user registration
+Doing:
+"Developing and testing the backend registration API."
+"Implementing front-end validation (e.g., email format, password strength)."
+"Ensuring error messages display for invalid entries."
+"Working on email confirmation upon successful registration."
+
+Done:
+"User registration is fully functional. Form validation is working, and new users receive a confirmation email upon account creation.
+All acceptance criteria have been tested and met."
+
+
+User Story 2: User Login
+
+Doing:
+"Designing and coding the front-end login form."
+"Configuring backend authentication for secure login."
+"Handling session management and error messages for incorrect login details."
+
+Done:
+"Login feature is complete and tested. Users with correct credentials can log in and are directed to their dashboard.
+Session management is active, and error handling for invalid entries works as expected."
+
+User Story 3: Browse by Category
+Doing:
+"Setting up the database to categorize books."
+"Integrating filter options on the homepage."
+"Testing to ensure category selection only displays relevant books."
+
+Done:
+"Browsing by category is fully functional. Users can select genres, and only relevant books are displayed as per acceptance criteria. 
+Tested for accurate filtering."
+
+User Story 4: Search for Books
+
+Doing:
+"Implementing search bar functionality and connecting it to the book database."
+"Handling search terms and testing results for accuracy."
+"Ensuring empty search results provide user feedback (e.g., ‘No results found’)."
+
+Done:
+"Search functionality is live and tested.
+Users receive relevant search results for titles/authors, and empty results display an appropriate message."
+
+User Story 5: Add to Cart
+Doing:
+"Developing the cart functionality and connecting it to the user session."
+"Implementing add/remove options and updating the cart view in real-time."
+"Testing to ensure items persist in the cart if the user logs out and logs back in."
+
+Done:
+"Cart feature is complete and functional. 
+Users can add/remove books, view the cart summary, and all changes persist across sessions. 
+Acceptance criteria fully met."
