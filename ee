@@ -1,0 +1,85 @@
+package project2;
+
+abstract class employee {
+	String Ename;
+	String Eaddress;
+	double Salary;
+	
+	 public employee(String Ename, String Eaddress, double salary) {
+		this.Ename=Ename;
+		this.Eaddress=Eaddress;
+		this.Salary=Salary;
+	}
+	 abstract void calcSalary();
+	 
+	 public void displayDetails() {
+			System.out.println("Ename:"+ Ename);
+			System.out.println("Eaddress:"+ Eaddress);
+			System.out.println("Salary:"+ Salary);
+}
+}
+
+package project2;
+
+public class Manager extends employee {
+	int numOfProjects;
+	String Ename;
+	String Eaddress;
+
+	public Manager(String Ename, String Eaddress, double salary,int numOfProjects) {
+		super(Ename,Eaddress,salary);
+		final int i = this. numOfProjects= numOfProjects;
+	}
+	public void inputDetails() {
+		System.out.println("Manager:"+ Ename+" | numOfProjects:"+ numOfProjects);
+	}
+	public void calcSalary() {
+		Salary+=numOfProjects*500;
+		System.out.println("calculated salary for Manager:"+ Salary);
+	}
+	}
+
+
+package project2;
+
+public class Developer extends employee {
+	int linesOfCode;
+	String Ename;
+	String Eaddress;
+
+public Developer(String Ename, String Eaddress, double salary,int linesOfCode) {
+	super(Ename,Eaddress,salary);
+	this.linesOfCode=linesOfCode;
+}
+public void enterDetails() {
+	System.out.println("Developer:"+ Ename+" | linesOfCode:"+ linesOfCode);
+}
+public void calcSalary() {
+	Salary+=linesOfCode*0.1;
+	System.out.println("calculated salary for Developer:"+ Salary);
+}
+}
+package project2;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			employee Dev= new Developer("alice","123 Dev street",5000,300);
+			employee Mgr= new Manager("bob","456 Mgr avenue",7000,5);
+		
+			Dev.displayDetails();
+			Dev.calcSalary();
+			
+			System.out.println("---------");
+			
+			Mgr.displayDetails();
+			Mgr.calcSalary();
+			
+	}catch(Exception e) {
+		System.out.println("Exception:"+ e.getMessage());
+	}
+
+	}
+}
