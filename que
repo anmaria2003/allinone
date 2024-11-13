@@ -1,0 +1,194 @@
+Aim: Target a special set of users and ask them questions 
+1) Target novice users 
+2) Target beginner user 
+3) Target advanced user 
+App: - Flipkart 
+
+Novice users 
+1. How easy do you find the Flipkart app to use? -It's quite user-friendly. I found it easy to navigate and search for products. 
+2. Did you experience any difficulty using the app? - No, the app is easy to use. I didn’t have any trouble finding what I needed. 
+3. Is the app’s layout and design easy to understand? -Yes, the layout is clear and well-organized. I had no trouble figuring out where things 
+Are. 
+4. Did you find the app’s search function easy to use? -Yes, the search function works well and is easy to use. I quickly found the products I 
+Was looking for. 
+5. Do you have any suggestions to improve the app’s usability? -Overall, it’s great. Maybe adding a more famous brands could be useful. 
+Beginner User 
+1. Was the process of adding items to your cart straightforward? If not, what improvements 
+would you suggest? -The process is straightforward. One improvement I could suggest is that when ordered 
+multiple copies of the same product it should give an option to change sizes of each one of 
+them. 
+2. How did you find the checkout process, including applying any discounts or offers? Was it 
+clear and simple? - The checkout process was generally clear, but I found applying discounts a bit confusing. It 
+would be better if there were more guidance or a visible summary of how discounts are 
+applied. 
+3. Were you satisfied with the payment options provided? Did you encounter any issues or 
+have any suggestions for additional payment methods? - I was satisfied with the payment options provided, but it would be nice to have additional 
+methods like digital wallets or installment plans for more flexibility. 
+4. How would you rate the overall shopping experience on flipkart ,from browsing to 
+checkout? - Overall, the shopping experience on flipkart was quite smooth. Browsing and adding items 
+to the cart were easy, and the checkout process was mostly clear. However, there were a few 
+areas where improvements could enhance the experience. 
+5. Is there any particular feature or functionality you think flipkart could improve to make your 
+shopping experience better? - Flipkart could improve the product search functionality to provide more accurate results and better 
+filtering options. Additionally, providing more detailed product information and customer reviews 
+could help make more informed purchasing decisions. 
+
+Advanced User 
+1. Have you encountered any issues with the speed or responsiveness of our website during 
+peak usage times? - 
+During peak times, the website is a bit slow, but overall it handles the problem well. I have 
+only experienced a few minor delays. 
+2. Are there any advanced features or tools that you think would enhance your shopping 
+experience? - 
+Advanced tools like comparison charts and more detailed filtering options for customer 
+reviews would be great additions to enhance the shopping experience. 
+3. Have you used our mobile app? If so, how does it compare to the desktop experience in 
+terms of usability and features? 
+- 
+The mobile app is very user friendly and comfortable the desktop experience is good. I find it 
+convenient for shopping on the mobile app. 
+4. How do you feel about the security measures in place for protecting your personal and 
+payment information on our site? - 
+I feel confident in the securing measures for protecting my personal and payment 
+information.  The multi-factor authentication and encryption give me peace of mind. 
+5. Do you use our subscription services? How would you rate their value and convenience? - 
+The subscription services offer great value and convenience. I appreciate the regular 
+updates and exclusive deals available to subscribers. 
+
+Analysis 
+1. Enhance performance during the peak times. 
+2. Ensure filters do not reset unexpectedly. 
+3. Make the flipkart features more accessible. 
+4. Add a progress  bar during checkout.
+
+PERSONA 
+Alex Tom is a 21-year-old aspiring musician. Having just completed his graduation from the True 
+School of Music, Maharashtra, he is thrilled to have secured admission for a master’s degree at the 
+prestigious Mumbai Music Institute. In just a few weeks, he will be moving to Mumbai to chase his 
+lifelong dream of becoming a professional musician. 
+Reflecting on his journey so far, Alex feels a deep sense of fulfilment and gratitude for how far he 
+has come. His passion for music started eight years ago, and his dedication has led him to this 
+defining moment of his career. However, as excited as he is, Alex also feels little of nervousness. He 
+knows that he will have to perform in front of renowned musicians during live weekly music 
+sessions, which makes him some self-doubt regarding his skills. To overcome this and build his 
+confidence, Alex decided to enroll in the "Spotify for Artists" course, a two-month interactive 
+program that brings together musicians from all over the world to improve their craft. 
+Throughout the course, Alex participated in live sessions where he received constructive feedback 
+on his voice notes and pitches, allowing him to correct errors and develop a stronger musical 
+presence. With each passing session, his confidence grew, and by the end of the course, he felt 
+ready to perform in front of any audience. Now, not only is he more self-assured, but he is also 
+helping his college mates enhance their music knowledge. 
+Beyond his musical ambitions, Alex is an explorer at heart. He loves to travel, discover new places, 
+and express his thoughts through blogs. His ultimate goal is to become a renowned music composer, 
+creating melodies that resonate with people from all walks of life.
+
+
+Amazon shopping app 
+1. Visibility of system status (Feedback) - 
+ 1)The system should always keep users informed about what is going on, through appropriate feedback within reasonable time.
+2)In the amazon shopping app, when users place an order, they immediately receive a 
+confirmation message indicating that their order has been placed successfully. The app also 
+provides a progress bar for tracking the order, including stages like “order 
+received”,”shipped”,and “delivered.” This feedback keeps users informed about the status of 
+their order, providing clear and timely updates. 
+
+2. Match between system and the real world (metaphor) -
+ The system should speak the user's language, with words, phrases & concepts familiar to the users, rather than system oriented terms, follow real world convention, making info appear in a natural & logical order.
+2)Amazon does an excellent job of using real world language and metaphors. For example, the 
+shopping card icon is recognized by everyone, and terms like ”wish list” and “add to cart” has 
+been a real world shopping experiences. The apps categories like electronics, clothing, and 
+books are organized in a manner that reflects how users think about shopping, which makes 
+navigation intuitive and easy. 
+
+3. User control and freedom (Navigations) -
+ 	User often choose system function by mistake & will need a clearly marked "Emergency Exit" to leave the unwanted state without having to go through an executed dialogue. It also support undo & redo.
+2)The amazon app allows users to easily navigate back to the previous page using a consistent 
+back button located at the top left of the screen. If users accidentally add an item to their cart, 
+they can quickly remove it with a single tap. Additionally the app provides cancel order option 
+shortly after an order is placed, offering users a way to think of their actions if they made a 
+mistake. 
+
+4. Consistency and standards (consistency) -
+ 	User should not have wonder whether different words, situations, or actions means the same thing.
+2)They maintain a high level of consistency throughout its design. The icons, fonts and button 
+placements remain consistent across different sections of the app. Such as the product pages, cart 
+and order history. This consistency helps users quickly recognize familiar patterns and easily use the 
+app without any confusion. 
+
+5. Error prevention - 
+ 	Even better than good error message is a careful design which prevent a problem from occurring in the first place. Either eliminate error-prove conditions or check for them and presents users with a confirmation option before they commit to the actions.
+2)They include several features to prevent the errors. For example before placing an order the app    
+require the users to review their shipping address, payment method and order details on the 
+confirmation page. Then they review the process and prevent the risk of incorrect orders. 
+Additionally if an item is out of stock, the app immediately notifies the user before they attempt to 
+add it in the cart. 
+
+6. Recognition rather than recall (Memory) - 
+ 	Minimize the user's memory load by making objects, actions and options visible. The user should not have to remember the information from one part of the dialogue to another. Instructions for use of the systems should be visible or easily retrievable whenever appropriate.
+2)The amazon app reduces memory load by displaying frequently brought items and past orders on 
+the home screen. When searching for products, the app provides a list of recent searches. Allowing 
+users to easily return to previous items without having to remember exact details. The product 
+pages also include user reviews and Q&A sections that are easily accessible. Providing all necessary 
+information without requiring users to navigate away from the page. 
+
+7. Flexibility and efficiency (efficiency) -
+ 	Accelerator-unseen by the novice user may often speed up the interaction for the expert user such that the system can cater to both inexperienced and experienced users. Allow users to tailor frequent actions.
+2)They offers several features to enhance efficiency, such as the buy now button, which allows 
+experienced users to purchase items with a single click. For new users, the app offers tutorials and 
+tooltips to guide them through the process. The app also allows users to create lists, such as 
+shopping list or wish list which can help the user’s preferences and accessed quickly. 
+
+8. Aesthetic and minimalist design (design) - 
+ 	Dialogues should not contain information which is irrelevant or rarely needed. Every extra exit of information in a dialogue completes within the relevant units of information and diminishes their relative visibility.
+2)Amazon app design is clean and minimalist, with a focus on displaying only essential information. 
+Product pages are neatly organized, with the most important details like price, product name and 
+images are displayed. Unnecessary information is minimized, and the app ensures that users can 
+easily focus on the content that matters most, such as product description and customer reviews. 
+
+9. Help user recognize, diagnose, and recover from errors (recovery) -
+ 	Error messages should be expressed in plain language (no codes), precisely indicate the problem, and constructively suggest a solution.
+2)When an error occurs, such as entering an invalid credit card number, the amazon app provides a 
+clear, understandable error message. The message not only informs the user of the mistake but also 
+offers a constructive solution, such as checking the card number or choosing a different payment 
+method. Additionally, the app highlights the specific field where the error is occurred, making it 
+easier for users to correct their mistakes. 
+
+10. Help and documentation (help) -
+2)They include a help section that is easily accessible from the main menu. The help documentation is 
+well-organized, with topics categorized by common user tasks such as managing orders or payment 
+issues. Each section provides step by step instructions, making it easy for users to find solutions to 
+their problems without needing deep searches. 
+
+
+Pr. No. 6 (HEURISTIC EVALUATION)
+Goa Tourism
+1)	Visibility of system status (Feedback)
+ 	The system should always keep users informed about what is going on, through appropriate feedback within reasonable time.
+ 	Here in our example, when we click download for registration of tourist guide fprm, dealers, Hotels, tourist taxi, etc. the notification pop up from top saying that the form is successfully downloaded, i.e. the feedback message is displayed. It is easy to register for any of the above post.
+2)	Match between system & the real world (Metaphor)
+ 	The system should speak the user's language, with words, phrases & concepts familiar to the users, rather than system oriented terms, follow real world convention, making info appear in a natural & logical order.
+ 	Overall there is a strong match between the system & the real world within the "events & classes" tab. When we click on the event tabs — The new page appear which display the list of the events. The recent events will be display in the top followed by the later events. Therefore, it follows real world convention, making information appear in a natural & logical order. Even above site allows people to choose the language, which they are comfortable with.
+3)	User control & freedom (Navigations)
+ 	User often choose system function by mistake & will need a clearly marked "Emergency Exit" to leave the unwanted state without having to go through an executed dialogue. It also support undo & redo.
+ 	If suppose by mistake it so happens that the users open wrong class, & wants to travel back, then site allows to go back on the home page. Thus, help users to work smoothly.
+4)	Consistency & standards (Consistency)
+ 	User should not have wonder whether different words, situations, or actions means the same thing.
+ 	Overall, the layout of the website & the layout of the "event & classes" tab within the website follow pretty consistency. In other words, the locations of each function & features did not change as I went from one page to other page within the events & classes. There is a consistent layout of the home page. If you compare two interfaces side by side, which allows user to recognise & identify that they still on the same website.
+5)	Error Prevention
+ 	Even better than good error message is a careful design which prevent a problem from occurring in the first place. Either eliminate error-prove conditions or check for them and presents users with a confirmation option before they commit to the actions.
+ 	This site the event & classes within the site have many excellent functions to prevent user errors from occurring at the first place. The form itself is self-explanatory for the average user, and before submitting the forms of photographer, etc.
+ 	The description of each user can be understand from the name of the class itself.
+6)	Recognition Rather Than Recall(Memory)
+ 	Minimize the user's memory load by making objects, actions and options visible. The user should not have to remember the information from one part of the dialogue to another. Instructions for use of the systems should be visible or easily retrievable whenever appropriate.
+ 	If suppose the user want to register the event and the users knows the date of the event than user do not need to recognize the name of the event.
+7)	Flexibility And Efficiency(Efficiency)
+ 	Accelerator-unseen by the novice user may often speed up the interaction for the expert user such that the system can cater to both inexperienced and experienced users. Allow users to tailor frequent actions.
+ 	After evaluating the site, the search box do not give the required resorts, the output results are different, and do not match with the user's needs. In addition, there is no mapping of where the user is on the site.
+8)	Aesthetic And Minimalist Design(Design)
+ 	Dialogues should not contain information which is irrelevant or rarely needed. Every extra exit of information in a dialogue completes within the relevant units of information and diminishes their relative visibility.
+ 	White space helps guide the users eyes down and across the page more quickly and easily with minimal confusion for the user. Thus, white space adds visual contrast and clarity to the page more user friendly and easy to navigate.
+9)	Help User Recognize, Diagnose, And Recover From Errors(Recovery)
+ 	Error messages should be expressed in plain language (no codes), precisely indicate the problem, and constructively suggest a solution.
+ 	As talking about errors in this website, there is no online form submission in here. We had to download the form. Therefore, chances of errors to happen is very less. No error was found in this website while inspecting it.
+10)	Help And Documentation(Help)
+ 	Even though it is better if the system can be used without documentation, it may be necessary to provide help and documentation. Any such information should be easy to search, focused on the user's task, list concrete steps to be carried out, and not be too large.
